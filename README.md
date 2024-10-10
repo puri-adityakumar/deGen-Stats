@@ -1,67 +1,99 @@
+# 📈 Coin Market Chart
 
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Recharts](https://img.shields.io/badge/Recharts-22B5BF?style=for-the-badge&logo=recharts&logoColor=white)
+![CoinGecko API](https://img.shields.io/badge/CoinGecko%20API-8DC63F?style=for-the-badge&logo=coingecko&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 
+A web application that displays the market chart of a specific cryptocurrency using the CoinGecko API and Recharts.
 
-```markdown
-# Coin Market Chart
-=====================
+## 🌟 Features
 
-A web application that displays the market chart of a specific coin.
+- 📊 Real-time market chart display for various cryptocurrencies
+- 🔄 Integration with CoinGecko API for up-to-date market data
+- 📉 Interactive line chart visualization using Recharts
+- 📱 Responsive design for seamless viewing on different devices
 
-## Overview
------------
+## 🚀 Getting Started
 
-This project uses the CoinGecko API to fetch the market data of a specific coin and displays it in a line chart using the Recharts library.
+### Prerequisites
 
-## Features
-------------
+- Node.js (v14 or later)
+- npm (v6 or later)
 
-* Displays the market chart of a specific coin
-* Uses the CoinGecko API to fetch market data
-* Line chart visualization using Recharts
-* Responsive design
+### Installation
 
-## Installation
----------------
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/coin-market-chart.git
+   ```
 
-To install the project, run the following commands:
+2. Navigate to the project directory:
+   ```bash
+   cd coin-market-chart
+   ```
 
-```bash
-git clone https://github.com/your-username/coin-market-chart.git
-cd coin-market-chart
-npm install
-npm start
-```
+3. Install dependencies:
+   ```bash
+   npm install
+   ```
 
-## Usage
------
+4. Start the development server:
+   ```bash
+   npm start
+   ```
 
-1. Open the application in your web browser at `http://localhost:5173`
-2. Select a coin from the dropdown menu
-3. The market chart of the selected coin will be displayed
+## 💻 Usage
 
-## Technologies Used
---------------------
+1. Open your web browser and go to `http://localhost:5173`
+2. Select a cryptocurrency from the dropdown menu
+3. View the interactive market chart for the selected coin
+4. Hover over the chart to see detailed price information
 
-* React
-* Recharts
-* CoinGecko API
-* JavaScript
-* HTML/CSS
+## 🛠️ Technologies Used
 
-## Contributing
-------------
+- [React](https://reactjs.org/) - A JavaScript library for building user interfaces
+- [Recharts](https://recharts.org/) - A composable charting library built on React components
+- [CoinGecko API](https://www.coingecko.com/en/api/documentation) - Cryptocurrency data API
+- JavaScript (ES6+)
+- HTML5 & CSS3
 
-Contributions are welcome! If you'd like to contribute to this project, please fork the repository and submit a pull request.
+## 🤝 Contributing
 
-## License
--------
+Contributions are welcome! Here's how you can contribute:
 
-This project is licensed under the MIT License.
+1. Fork the repository
+2. Create a new branch (`git checkout -b feature/AmazingFeature`)
+3. Make your changes
+4. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+5. Push to the branch (`git push origin feature/AmazingFeature`)
+6. Open a Pull Request
 
-## Acknowledgments
----------------
+Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduct and the process for submitting pull requests.
 
-* CoinGecko API for providing the market data
-* Recharts library for the line chart visualization
-```
+## 📄 License
 
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
+
+## 🙏 Acknowledgments
+
+- [CoinGecko](https://www.coingecko.com/) for providing the cryptocurrency market data API
+- [Recharts](https://recharts.org/) for the powerful and flexible charting library
+- The open-source community for continuous inspiration and support
+
+## 📞 Contact
+
+Your Name - [@adityawaslost](https://x.com/adityawaslost) - email@example.com
+
+Project Link: [deGen-Stats](https://github.com/puri-adityakumar/deGen-Stats)
+
+---
+
+Made with ❤️ by [Aditya](https://github.com/puri-adityakumar)
+
+## 📝 Future Updates
+1. Currency Converter Page
+2. Trending Coin / News
+3. Improve UI + Responsiveness 
+4. Improve ReadME
+5. Proper Domian

@@ -68,7 +68,7 @@ export default function Header() {
 
             {/* Top right GH Icon */}
             <div className="hidden lg:flex lg:flex-1 lg:justify-end bg">
-              <a href="https://github.com/puri-adityakumar" className="w-12 h-12 rounded-full bg-indigo-500 flex items-center justify-center text-white text-base font-medium  hover:bg-gray-500">
+              <a href="https://github.com/puri-adityakumar/deGen-Stats" className="w-12 h-12 rounded-full bg-indigo-500 flex items-center justify-center text-white text-base font-medium  hover:bg-gray-500">
                 <img src="https://github.githubassets.com/assets/GitHub-Mark-ea2971cee799.png" alt="" className="h-10 w-auto rounded-full" /> 
               </a>
             </div>
@@ -118,7 +118,7 @@ export default function Header() {
                   </Link>
                 </div>
                 <div className="flex items-center lg:order-2 py-6 ">
-                  <a href="https://github.com/puri-adityakumar" className="w-10 h-10 rounded-full bg-indigo-500 flex items-center justify-center text-white text-base font-medium  hover:bg-gray-500 ">
+                  <a href="https://github.com/puri-adityakumar/deGen-Stats" className="w-10 h-10 rounded-full bg-indigo-500 flex items-center justify-center text-white text-base font-medium  hover:bg-gray-500 ">
                     <img src="https://github.githubassets.com/assets/GitHub-Mark-ea2971cee799.png" alt="" className="h-8 w-auto rounded-full" /> 
                   </a>
                 </div>
