@@ -7,6 +7,8 @@
 
 A web application that displays the market chart of a specific cryptocurrency using the CoinGecko API and Recharts.
 
+# [LIVE LINK 🌱](https://degen-stats-six.vercel.app/)
+
 ## 🌟 Features
 
 - 📊 Real-time market chart display for various cryptocurrencies
