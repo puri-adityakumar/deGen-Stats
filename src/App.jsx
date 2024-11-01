@@ -4,6 +4,7 @@ import Body from './components/Body/Body.jsx'
 import Coin from './components/Coin/Coin.jsx'
 import Converter from './components/Converter/Converter.jsx'
 import { Routes, Route } from 'react-router-dom'
+import Footer from './components/Footer/Footer'
 
 function App() {
   
@@ -18,6 +19,7 @@ function App() {
           </Route>
           <Route path="/Converter" element={<Converter />}></Route>
         </Routes>
+        <Footer />
     </div>
     
   )
