@@ -66,11 +66,11 @@ const Charts = ({ id }) => {
     }`
 
   return (
-    <div className='w-full h-full bg-gradient-to-br from-teal-50 to-green-50 rounded-xl shadow-inner p-4'>
+    <div className='w-full h-full bg-gradient-to-br from-teal-50 to-green-50 rounded-xl shadow-inner p-4 overflow-y-auto'>
       <div className='h-[calc(100%-40px)] mb-4'>
         <ChartComponent data={chartData} currency={currency} type={type} />
       </div>
-      <div className='flex justify-between'>
+      <div className='flex flex-row justify-between'>
         <div className='space-x-2'>
           <button className={buttonClass(type === "prices")} onClick={() => setType("prices")}>Prices</button>
           <button className={buttonClass(type === "market_caps")} onClick={() => setType("market_caps")}>Market Caps</button>

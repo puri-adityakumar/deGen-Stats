@@ -95,7 +95,7 @@ Made with ❤️ by [Aditya](https://github.com/puri-adityakumar)
 
 ## 📝 Future Updates
 1. Currency Converter Page
-2. Trending Coin / News
-3. Improve UI + Responsiveness 
-4. Improve ReadME
+2. ~~Trending Coin / News~~
+3. ~~Improve UI + Responsiveness~~ 
+4. ~~Improve ReadME~~
 5. Proper Domian

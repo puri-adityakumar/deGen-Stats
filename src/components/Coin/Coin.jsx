@@ -65,12 +65,12 @@ const Coin = () => {
       onClick={close}
     >
       <div
-        className="w-[80%] h-[80%] bg-white rounded-lg text-gray-800 relative shadow-xl"
+        className="w-[80%] h-[80%] bg-white flex flex-col rounded-lg text-gray-800 relative shadow-xl  "
         onClick={(e) => e.stopPropagation()}
       >
         {coinData ? (
-          <div className="flex h-full">
-            <div className="w-[45%] h-full p-4 border-r border-gray-200 overflow-y-auto">
+          <div className="flex flex-col md:flex-row h-full overflow-y-auto">
+            <div className="w-full md:w-[45%] h-full p-4 border-r border-gray-200 ">
               <div className="flex items-center gap-3 mb-4">
                 <img
                   src={coinData.image.large}
@@ -86,7 +86,7 @@ const Coin = () => {
                   </span>
                 </div>
               </div>
-
+a
               <div className="grid grid-cols-3 gap-3 mb-4">
                 <div className="bg-gray-50 hover:bg-gradient-to-br hover:from-teal-50 hover:to-green-50 transition-colors rounded-lg p-3 shadow-sm">
                   <div className="flex justify-between items-center mb-1">
@@ -228,7 +228,7 @@ const Coin = () => {
               </div>
             </div>
 
-            <div className="w-[55%] h-full p-4">
+            <div className="w-full md:w-[55%] h-full p-4 ">
               <div className="h-[70%] mb-4">
                 <Charts id={coinData.id} currency={currency} />
               </div>
